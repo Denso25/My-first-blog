@@ -7,13 +7,15 @@ body {
   color: aliceblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .card1 {
-  width: 70%;
-  margin: 0px auto;
-  border: 2px solid var(--color-gray-borde);
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid var(--color-gray-borde);
   border-radius: 3px;
   overflow: hidden;
 }
+
 .title {
   text-align: center;
   background-color: rgba(61, 45, 59, 0.644);
@@ -22,16 +24,26 @@ body {
   padding-bottom: 3px;
   border-bottom: 1px solid var(--color-gray-borde);
 }
+
 .textTitle {
   padding: 0px 5px;
   text-align: center;
+  color: rgb(137, 216, 190);
 }
+
 .card2 {
-  width: 70%;
-  border: 1px solid aliceblue;
-  background-color: rgba(143, 141, 145, 0.158);
-  color: rgba(240, 182, 106, 0.705);
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.text {
+  width: 48%;
+  padding: 10px 5px;
+  border: 2px solid var(--color-gray-borde);
   border-radius: 3px;
-  margin: 0px auto;
-  padding-left: 5px;
+  background-color: rgba(143, 141, 145, 0.158);
+  color: rgb(209, 153, 79);
 }
