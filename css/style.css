@@ -1,5 +1,28 @@
+:root {
+  --color-gray-borde: rgb(124, 114, 114);
+}
+
 body {
   background-color: black;
   color: aliceblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card1 {
+  width: 70%;
+  margin: 0px auto;
+  border: 2px solid var(--color-gray-borde);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.title {
+  text-align: center;
+  background-color: rgba(61, 45, 59, 0.644);
+  margin: 0px;
+  color: rgb(194, 54, 175);
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--color-gray-borde);
+}
+.textTitle {
+  padding: 0px 5px;
+  text-align: center;
 }
